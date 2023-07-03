@@ -1,0 +1,62 @@
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color:#F2F9FF;
+}
+
+.containContainers {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 7.5rem;
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #a29f9f;
+    letter-spacing: 0.5px;
+}
+
+.text {
+    text-align: center;
+    padding: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+    color: #4d4d4d;
+}
+
+.footer {
+    background-color: #948FB2;
+}
+
+.followUs {
+    font-family: 'Lemon';
+    padding-top: 1rem;
+    padding-left: 4rem;
+    font-size: 13px;
+}
+
+.socialMedia {
+    display: flex;
+    padding: 0.5rem 10rem;
+}
+
+.igLogo {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.fbLogo {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.finalString {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #4D4D4D;
+    font-size: 13px;
+    padding: 1rem;
+}

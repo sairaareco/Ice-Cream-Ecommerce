@@ -1,0 +1,138 @@
+
+.container {
+    background-color:#F2F9FF;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 7.5rem;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #a29f9f;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 17px;
+}
+
+.form {
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background-color: #FFD9D9;
+    border-radius: 15px;
+    /* border: 5px solid #FFFFFF; */
+}
+
+.name {
+    margin-bottom: 0.6rem;
+    font-family: 'Lemon';
+    font-size: 13px;
+    color: #4D4D4D;
+}
+
+.email {
+    font-family: 'Lemon';
+    font-size: 13px;
+    margin: 0.6rem 0rem;
+    color: #4D4D4D;
+}
+
+.message {
+    font-family: 'Lemon';
+    font-size: 13px;
+    margin: 0.6rem 0rem;
+    color: #4D4D4D;
+}
+
+.typeName {
+    border-radius: 6px;
+    border: none;
+    padding: 7px;
+    width: 25rem;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+.typeEmail {
+    border-radius: 6px;
+    border: none;
+    padding: 7px;
+    width: 25rem;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+.typeMessage {
+    border-radius: 8px;
+    border: none;
+    height: 8rem;
+    width: 25rem;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    outline: none;
+    resize: none;
+}
+
+.buttonSubmit {
+    margin-top: 1rem;
+    font-family: 'Lemon';
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 1rem;
+    background-color: #948FB2;
+}
+
+.followUs {
+    font-family: 'Lemon';
+    padding-top: 1rem;
+    padding-left: 4rem;
+    font-size: 13px;
+}
+
+.socialMedia {
+    display: flex;
+    padding: 0.5rem 10rem;
+}
+
+.igLogo {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+
+.fbLogo {
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+
+.finalString {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #4D4D4D;
+    font-size: 13px;
+    padding: 1rem;
+}

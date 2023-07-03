@@ -1,0 +1,116 @@
+.container {
+    background-color: #F2F9FF;
+}
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart {
+    color: #FF5959;
+    margin-top: 12rem;
+    width: 140px;
+    height: 100px;
+}
+
+.cartIsEmpty {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    font-weight: bolder;
+}
+
+.buttonStartShopping {
+    margin-top: 2.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    font-family: 'Lemon';
+    padding: 0.8rem 3rem;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 35rem;
+}
+
+.containerSubtitles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center; 
+    padding-top: 7.6rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.subtitleProducts {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #a29f9f;
+    margin-left: 4.5rem;
+}
+
+.subtitleQuantity {
+    margin-left: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #a29f9f;
+    margin-right: 10rem;
+}
+
+.subtitlePrice {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #a29f9f;
+    margin-left: 4rem;
+}
+
+.subtitleRemove {
+    margin-left: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #a29f9f;
+}
+
+.totalPrice {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    padding-top: 1rem;
+}
+
+.buttonsShopCart {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20rem;
+    cursor: pointer;
+}
+
+.buttonToHome {
+    font-family: 'Lemon';
+    margin-top: 1.5rem;
+    padding: 0.8rem 3rem;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.buttonPurchase {
+    font-family: 'Lemon';
+    margin-top: 1.5rem;
+    padding: 0.8rem 3rem;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+

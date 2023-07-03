@@ -1,0 +1,67 @@
+
+.containProduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center; 
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-left: 4rem;
+    font-size: 16px;
+}
+
+.buttonMenos {
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    background-color:  #FFFFFF;
+    color: black;
+}
+
+.containerQuantity {
+    margin-left: 4rem;
+}
+
+.number {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buttonMas {
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    color: black;
+    background-color:  #FFFFFF;
+}
+
+.buttonDelete {
+    border-radius:20px;
+    border: none;
+    background: #F2F9FF;
+    font-size: 16px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    margin-left: 4rem;
+    padding-bottom: 0.5rem;
+}

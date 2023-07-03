@@ -1,0 +1,160 @@
+
+.container {
+    padding-top: 7.5rem;
+    background-color: #F2F9FF;
+}
+
+.title {
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #a29f9f;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.containBoxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitleForm {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+    padding-bottom: 0.3rem;
+    font-size: 13px;
+}
+
+.containData {
+    display: flex;
+    padding-right: 11rem;
+}
+
+.input {
+    padding: 16px;
+    width: 20rem;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.validationEmail {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    font-size: 13px;
+    position: absolute;
+    right: 700px;
+}
+
+.eyePass {
+    position: absolute;
+    padding: 3px;
+    top: 55%;
+    left: 414px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.pass {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    font-style: oblique;
+    padding-bottom: 0.3rem;
+    font-size: 13px;
+}
+
+.validationPass {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 13px;
+    position: absolute;
+    right: 630px;
+}
+
+.orderContainer {
+    background-color: #FFD9D9;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+}
+
+.subtitleOrder {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.quantity {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.totalPrice {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-bottom: 20rem;
+}
+
+.buttonBackCart {
+    font-family: 'Lemon';
+    color: #FFFFFF;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttonContinue {
+    font-family: 'Lemon';
+    color: #FFFFFF;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 3rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

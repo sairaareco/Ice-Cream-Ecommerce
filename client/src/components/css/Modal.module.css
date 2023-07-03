@@ -1,0 +1,93 @@
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20; 
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 20; 
+    width: 36%;
+    height: 42%;
+}
+
+.containerTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.check {
+    padding-top: 5px;
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+.title {
+    font-family: 'Lemon';
+    text-align: center;
+    font-size: 22px;
+}
+
+.iceCreamContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7rem;
+    background-color: #FFD9D9;
+    border-radius: 8px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    margin-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 2.2rem;
+    padding-left: 2.5rem;
+}
+
+.buttonHome {
+    background-color: #FF5959;
+    font-family: 'Lemon';
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.buttonCart {
+    background-color: #FF5959;
+    color: #FFFFFF;
+    font-family: 'Lemon';
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    cursor: pointer;
+}
+
+
+

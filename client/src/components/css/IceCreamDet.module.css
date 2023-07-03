@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.buttonBackHome {
+    font-family: 'Lemon';
+    font-size: 10px;
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 6%;
+    background-color: #FF5959;
+    box-shadow: 2px 1px 3px #4D4D4D;
+    cursor: pointer;
+}
+
+.image {
+    padding-top: 1.9rem;
+    border: none;
+    width: 40%;
+    height: 40%;
+}
+
+.data{
+    margin-top: 2rem;
+    padding-top: 3rem;
+    width: 45rem;
+}
+
+.name {
+    font-family: 'Roboto' , sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #a29f9f;
+}
+
+.flavorTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.flavors {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 1.5rem;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.nutFacts { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.protein {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 1.5rem;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.calories {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 0.8rem;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-align: center;
+} 
+
+.totalFat {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 0.8rem;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-top: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
