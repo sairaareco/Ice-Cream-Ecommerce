@@ -3,4 +3,4 @@ Podemos acceder a los helados, podemos filtrar según el helado que busquemos, t
 Con esta app tenemos un carrito, donde agregamos los helados que deseamos llevar.
 Finalmente, seguimos el proceso de compra, primero agregando nuestros datos de inicio de sesion, datos de compra y finalmente el medio de pago respectivo.
 Este proyecto vuelca los conocimientos adquiridos hasta entonces, buscando obtener mas eficacia y nuevos retos personales.
-Enteramente, el proyecto fue diseñado en inglés, para poder también poner en práctica las habilidades de este idioma que estoy adquiriendo de a poco. Te invito a ver el proyecto... ¡Gracias!
+Enteramente, el proyecto fue diseñado en inglés, para poder también poner en práctica las habilidades de este idioma que estoy adquiriendo de a poco. Te invito a verlo... ¡Gracias!
