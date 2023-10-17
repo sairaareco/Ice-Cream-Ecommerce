@@ -206,5 +206,41 @@
     padding: 1rem;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .buttonsFilter {
+        padding-top: 1rem;
+    }
+    .buttonAll {
+        font-size: 1.5rem;
+    } 
+    .buttonCone {
+        font-size: 2rem;
+    } 
+    .buttonPopsicle {
+        font-size: 2rem;
+    }
+    .buttonShake {
+        font-size: 2rem;
+    }
+    .card {
+        width: 277px;
+        height: 280px;
+    }
+    .name {
+        font-size: 19px;
+    }
+    .price {
+        font-size: 15px;
+    }
+    .buttonCart {
+        bottom: 12px;
+        right: 26px;
+        background-color: black;
+        border-radius: 50%;
+        padding: 0.3rem;
+        width: 30px;
+    }
+}
 
 

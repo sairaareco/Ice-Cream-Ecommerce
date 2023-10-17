@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 * {
@@ -24,6 +25,10 @@
     margin-left: 7rem;
     margin-top: 0.5rem;
 }
+/* 
+.mobileMenuIcon {
+    display: none;
+} */
 
 .containerSearch {
     margin-left: 7rem;
@@ -92,4 +97,63 @@
     margin-top: 0.2rem;
     color: #4D4D4D;
     text-align: center;
+}
+
+@media screen and (min-width: 732px) and (max-width: 1271px) {
+
+    .item {
+        display: none;
+    }
+
+    .mobileMenuIcon {
+        margin-top: 0.5rem;
+        color: #FF5959;
+    }
+
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobileItem {
+        font-family: 'Lemon';
+        font-size: 15px;
+        color: #948FB2;
+        text-decoration: none;
+        margin-left: 0.5rem;
+        padding: 0.2rem;
+    }
+    
+    .containerSearch {
+        display: flex;
+        justify-content: end;
+        margin-left: 15rem;
+        position: absolute;
+        left: 8rem;
+    }
+
+    .cart {
+        display: flex;
+        position: absolute;
+        right: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .menu {
+        /* background-color: #FF5959; */
+        height: 5rem;
+    }
+    .item {
+        display: none;
+    }
+
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }

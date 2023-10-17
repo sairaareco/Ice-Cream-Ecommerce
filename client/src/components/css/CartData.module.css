@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+
 .container {
     background-color: #F2F9FF;
 }
@@ -112,5 +115,4 @@
     font-size: 14px;
     cursor: pointer;
 }
-
 

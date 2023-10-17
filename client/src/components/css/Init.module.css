@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +8,14 @@
 }
 
 .containt {
-    /* background-color: rosybrown; */
-    background-color: #948FB2;
+    background-color: #ed8c8c;
     height: 100vh;
 }
 
 .title {
     padding-top: 4rem;
     font-family: 'Lemon';
-    color: #FFFFFF;
+    color:  #FFFFFF;
     font-size: 6rem;
     text-align: center;
 }
@@ -54,5 +56,40 @@
     border-radius: 8px;
     font-size: 15px;
     cursor: pointer;
+    opacity: none;
 }
 
+@media screen and (max-width: 1048px) {
+    .containt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: royalblue; */
+    }
+    .title {
+        margin-bottom: 3rem;
+        font-size: 4rem;
+    }
+    .containerText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0rem 0rem 0rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .title {
+        margin-bottom: 2rem;
+        font-size: 4rem;
+    }
+    .containerText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+}

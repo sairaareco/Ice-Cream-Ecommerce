@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import {GoSearch} from "react-icons/go";
 import {BsCart} from "react-icons/bs";
+import {FaBars} from "react-icons/fa"
 
 
 const NavBar = ({setFoundIceCreams, setShowSearchResults}) => {
@@ -14,6 +15,11 @@ const NavBar = ({setFoundIceCreams, setShowSearchResults}) => {
 // const dispatch = useDispatch();
 const [searchTerm, setSearchTerm] = useState("");
 const navigate = useNavigate();
+const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+};
 
 const handleOpenCart = () => {
     navigate("/cart")
@@ -48,6 +54,20 @@ return(
         <Link to="/faq" className={style.item}> FAQ </Link> 
         <Link to="/contact" className={style.item}> CONTACT </Link> 
         <Link to="/about" className={style.item}> ABOUT ME </Link> 
+
+
+    <div className={style.mobileMenuIcon} onClick={toggleMobileMenu}>
+                < FaBars/>
+            </div>
+        {isMobileMenuOpen && (
+            <div className={style.mobileMenu}>
+                <Link to="/home" className={style.mobileItem}> HOME </Link>
+                <Link to="/faq" className={style.mobileItem}> FAQ </Link>
+                <Link to="/contact" className={style.mobileItem}> CONTACT </Link>
+                <Link to="/about" className={style.mobileItem}> ABOUT ME </Link>
+            </div>
+        )}
+
 
         <div className={style.containerSearch}>
             <input type="text" value={searchTerm} onChange={handleChange} placeholder=" Ice Cream Search" className={style.input}/>
