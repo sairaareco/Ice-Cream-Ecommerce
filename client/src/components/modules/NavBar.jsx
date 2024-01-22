@@ -52,7 +52,7 @@ const handleSubmit = (event) => {
 return(
     <div className={style.menu}> 
         <Link to="/home">
-            <img src={process.env.PUBLIC_URL + '/homeIcon.png'} alt="icono principal" width={60}/> 
+            <img src={process.env.PUBLIC_URL + '/homeIcon.png'} alt="icono principal" width={50}/> 
         </Link>
         <Link to="/home" className={style.item}> HOME </Link>
         <Link to="/faq" className={style.item}> FAQ </Link> 
