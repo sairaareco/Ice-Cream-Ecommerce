@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/Purchase.module.css";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";

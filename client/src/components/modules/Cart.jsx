@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/Cart.module.css";
 import { removeFromCart, increaseCart, decreaseCart } from "../redux/actions";
 import { useSelector, useDispatch } from "react-redux";
@@ -6,6 +7,7 @@ import {RiDeleteBinLine} from "react-icons/ri";
 
 const Cart = ({id, name, price, quantity}) => {
 
+// eslint-disable-next-line
 const cartItems = useSelector((state) => state.cart.cartItems);
 const dispatch = useDispatch();
 

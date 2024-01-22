@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/ModalPay.module.css";
 
 const ModalPay = ({setShowModalPay}) => {

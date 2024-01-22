@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/CartData.module.css";
 import axios from "axios";
 import Cart from "./Cart";
@@ -5,7 +6,9 @@ import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { toggleCartVisibility } from "../redux/actions";
 import {BsCartX} from "react-icons/bs";
+// eslint-disable-next-line
 import {FaTimes} from "react-icons/fa";
+// eslint-disable-next-line
 const { Buffer } = require('buffer');
 
 const CartData = () => {
@@ -13,8 +16,10 @@ const CartData = () => {
 const navigate = useNavigate();
 const cartItems = useSelector(state => state.cart.cartItems);
 const dispatch = useDispatch();
+// eslint-disable-next-line
 const cartVisible = useSelector((state) => state.value.cartVisible)
 
+// eslint-disable-next-line
 const handleOpenCart = () => {
     dispatch(toggleCartVisibility())
 };

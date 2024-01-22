@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/Payment.module.css";
 import axios from "axios";
 import ModalPay from "./ModalPay";

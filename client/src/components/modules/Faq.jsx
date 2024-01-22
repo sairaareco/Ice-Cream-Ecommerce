@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/Faq.module.css";
 import { Link } from "react-router-dom";
 import {GrInstagram} from "react-icons/gr";

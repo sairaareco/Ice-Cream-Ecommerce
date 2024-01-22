@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/Modal.module.css";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -5,6 +6,8 @@ import { FaCheck } from "react-icons/fa";
 
 const Modal = ({ setShowModal, selectedIceCream }) => {
   const navigate = useNavigate();
+
+  // eslint-disable-next-line
   const cartVisible = useSelector((state) => state.value.cartVisible);
 
   const handleHome = () => {

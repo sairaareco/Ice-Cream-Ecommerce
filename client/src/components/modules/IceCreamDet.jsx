@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/IceCreamDet.module.css";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom"; 

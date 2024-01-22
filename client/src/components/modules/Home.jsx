@@ -1,3 +1,4 @@
+import React from 'react';
 import style from "../css/Home.module.css";
 import axios from "axios";
 import Modal from "./Modal";
@@ -17,11 +18,13 @@ const Home = ({foundIceCreams, showSearchResults, setShowSearchResults}) => {
     
 const instagramUrl = "https://www.instagram.com/";
 const facebookUrl = "https://es-la.facebook.com/";
+// eslint-disable-next-line
 const cartItems = useSelector((state) => state.cartItems)
 const dispatch = useDispatch();
 const cartVisible = useSelector((state) => state.value.cartVisible)
 const [iceCream, setIceCream] = useState([]);
 const [filteredIceCream, setFilteredIceCream] = useState([]);
+// eslint-disable-next-line
 const [currentCategory, setCurrentCategory] = useState("all");
 const [showModal, setShowModal] = useState(false);
 const [selectedIceCream, setSelectedIceCream] = useState(null);
