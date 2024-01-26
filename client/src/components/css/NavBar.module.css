@@ -26,22 +26,15 @@
     margin-left: 7rem;
     margin-top: 0.5rem;
 }
-/* 
-.mobileMenuIcon {
-    display: none;
-} */
-
 .containerSearch {
-    margin-left: 7rem;
+    margin-left: 15rem;
 }
-
 .input {
     font-family: 'Roboto', sans-serif;
     width: 15rem;
     height: 2.2rem;
     outline: none;
 }
-
 .buttonSearch {
     font-family: 'Lemon';
     border: none; 
@@ -52,7 +45,6 @@
     padding: 0.6rem;
     cursor: pointer;
 }
-
 .cart {
     color: #FFFFFF;
     background-color: #FF5959;
@@ -60,14 +52,13 @@
     border-radius: 8px;
     margin-left: 1rem;
     cursor: pointer;
+    height: 2.3rem;
 }
-
-.numberCart {
+/* .numberCart {
     font-family: 'Roboto', sans-serif;
     font-size: small;
     font-weight: 600;
-}
-
+} */
 .image {
     margin-top: 0px;
     width: 100%;

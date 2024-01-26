@@ -68,7 +68,7 @@ return(
             
         <div className={style.cart} onClick={handleOpenCart}>
             < BsCart/>
-            <span className={style.numberCart}> </span>
+            {/* <span className={style.numberCart}> </span> */}
         </div>
     </div>
 )
